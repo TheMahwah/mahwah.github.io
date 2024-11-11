@@ -12,15 +12,6 @@
     <link rel="icon" href="images/favicon.png" type="images/favicon.png"/>
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
-    <script>
-        window.onload = function() {     
-            twemoji.parse(document.body, 
-                    {folder: 'svg', ext: '.svg'}
-            );
-
-        }
-
-    </script>
 </head>
 <body>
 
@@ -33,4 +24,9 @@
 </div>
 
 </body>
+
+    <script>
+        twemoji.parse(document.body)
+    </script>
+    
 </html>
