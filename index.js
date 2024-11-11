@@ -25,9 +25,3 @@ var x = setInterval(function() {
     document.getElementById("countdownseconds").innerHTML = "";
   }
 }, 1000);
-
-window.onload = function() {    
-  twemoji.parse(document.body, 
-    {folder: 'svg', ext: '.svg'}
-  );
-}
