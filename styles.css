@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Cubano;
+  src: url(fonts/Cubano.ttf);
+}
+
+body {
+  background-color: #AA8DD8;
+}
+
+#countdowndays {
+  font-family: "Cubano";
+  color: #6a47a6;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  font-size: 40px;
+}
+
+#countdownhours {
+  font-family: "Cubano";
+  color: #6a47a6;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 40px;
+}
+
+#countdownminutes {
+  font-family: "Cubano";
+  color: #6a47a6;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  font-size: 40px;
+}
+
+#countdownseconds {
+  font-family: "Cubano";
+  color: #6a47a6;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-size: 40px;
+}
+
+
+.devil_emoji_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.devil_emoji {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  font-size: 60px;
+}
