@@ -17,11 +17,6 @@ body {
   font-size: 40px;
 }
 
-img.emoji {
-  width:1.5em;
-  pointer-events: none;
-}
-
 #countdownhours {
   font-family: "Cubano";
   color: #6a47a6;
